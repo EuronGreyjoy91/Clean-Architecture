@@ -1,6 +1,6 @@
-package com.fedor.CleanArchitecture.infrastructure.mapper;
+package com.fedor.CleanArchitecture.books.infrastructure.mapper;
 
-import com.fedor.CleanArchitecture.infrastructure.model.BookDTO;
+import com.fedor.CleanArchitecture.books.infrastructure.model.BookDTO;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

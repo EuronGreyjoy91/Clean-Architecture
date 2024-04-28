@@ -1,9 +1,9 @@
-package com.fedor.CleanArchitecture.infrastructure.model;
+package com.fedor.CleanArchitecture.books.infrastructure.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.fedor.CleanArchitecture.domain.Book;
+import com.fedor.CleanArchitecture.books.domain.Book;
 import lombok.Builder;
 import lombok.Value;
 

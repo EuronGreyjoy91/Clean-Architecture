@@ -1,9 +1,8 @@
-package com.fedor.CleanArchitecture.application;
+package com.fedor.CleanArchitecture.books.application.save;
 
-import com.fedor.CleanArchitecture.application.interactor.SaveBook;
-import com.fedor.CleanArchitecture.domain.Book;
-import com.fedor.CleanArchitecture.domain.BookRepository;
-import com.fedor.CleanArchitecture.domain.exception.RepeatedBookTitleException;
+import com.fedor.CleanArchitecture.books.domain.Book;
+import com.fedor.CleanArchitecture.books.domain.BookRepository;
+import com.fedor.CleanArchitecture.books.domain.exception.RepeatedBookTitleException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,9 @@
-package com.fedor.CleanArchitecture.infrastructure;
+package com.fedor.CleanArchitecture.books.infrastructure;
 
-import com.fedor.CleanArchitecture.application.interactor.GetBooks;
-import com.fedor.CleanArchitecture.application.interactor.SaveBook;
-import com.fedor.CleanArchitecture.domain.Book;
-import com.fedor.CleanArchitecture.infrastructure.model.BookResponse;
+import com.fedor.CleanArchitecture.books.application.get.GetBooks;
+import com.fedor.CleanArchitecture.books.application.save.SaveBook;
+import com.fedor.CleanArchitecture.books.domain.Book;
+import com.fedor.CleanArchitecture.books.infrastructure.model.BookResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,9 @@
-package com.fedor.CleanArchitecture.infrastructure;
+package com.fedor.CleanArchitecture.books.infrastructure;
 
-import com.fedor.CleanArchitecture.domain.Book;
-import com.fedor.CleanArchitecture.domain.BookRepository;
-import com.fedor.CleanArchitecture.infrastructure.mapper.BookDTORowMapper;
-import com.fedor.CleanArchitecture.infrastructure.model.BookDTO;
+import com.fedor.CleanArchitecture.books.domain.Book;
+import com.fedor.CleanArchitecture.books.domain.BookRepository;
+import com.fedor.CleanArchitecture.books.infrastructure.mapper.BookDTORowMapper;
+import com.fedor.CleanArchitecture.books.infrastructure.model.BookDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

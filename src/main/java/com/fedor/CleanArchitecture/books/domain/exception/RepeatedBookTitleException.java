@@ -1,4 +1,4 @@
-package com.fedor.CleanArchitecture.domain.exception;
+package com.fedor.CleanArchitecture.books.domain.exception;
 
 public class RepeatedBookTitleException extends RuntimeException {
     public RepeatedBookTitleException() {

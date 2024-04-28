@@ -1,6 +1,6 @@
-package com.fedor.CleanArchitecture.infrastructure.model;
+package com.fedor.CleanArchitecture.books.infrastructure.model;
 
-import com.fedor.CleanArchitecture.domain.Book;
+import com.fedor.CleanArchitecture.books.domain.Book;
 import lombok.Value;
 
 import java.time.LocalDate;

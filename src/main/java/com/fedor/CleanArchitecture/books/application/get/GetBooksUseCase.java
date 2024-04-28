@@ -1,8 +1,7 @@
-package com.fedor.CleanArchitecture.application;
+package com.fedor.CleanArchitecture.books.application.get;
 
-import com.fedor.CleanArchitecture.application.interactor.GetBooks;
-import com.fedor.CleanArchitecture.domain.Book;
-import com.fedor.CleanArchitecture.domain.BookRepository;
+import com.fedor.CleanArchitecture.books.domain.Book;
+import com.fedor.CleanArchitecture.books.domain.BookRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

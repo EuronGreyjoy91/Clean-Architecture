@@ -1,4 +1,4 @@
-package com.fedor.CleanArchitecture.domain;
+package com.fedor.CleanArchitecture.books.domain;
 
 import java.util.List;
 import java.util.Optional;
